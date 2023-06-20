@@ -1,0 +1,181 @@
+*{
+    font-size: 62.5%
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 55.0rem;
+    max-height: 77.9rem;
+    margin: auto auto;
+    box-sizing: border-box;
+}
+
+header{
+    background: no-repeat center/100% url('https://images.unsplash.com/photo-1628432136678-43ff9be34064?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1263&q=80');
+    background-position-y: 20%;
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: multiply;
+    color: white;
+    height: 20.8rem;
+    /* width: 55.0rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+   font-style: normal;
+   font-weight: 800;  
+   font-size: 4.27947rem;
+   letter-spacing: -0.045rem;
+   margin-left: 4.2rem
+}
+
+header a{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-right: 4.6rem;
+    text-decoration: none;
+    color: white;
+
+}
+
+form {
+    border: 1px solid #D1D5DB;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    position: absolute;
+    margin: auto auto;
+    left: 10%;
+    right: 10%;
+    top: 18.9rem;
+    font-size: 1.4rem;
+    max-width: 46.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form input {
+    text-align: center;
+    width: 100%;
+    text-align: start;
+    height: 3.8rem;
+    border: none;
+    padding: 0;
+}
+
+form i {
+    padding: 1.5rem 1.1rem
+}
+
+form > button {
+   background: #F9FAFB;
+   border: none;
+   border-left: 1px solid #D1D5DB;
+   border-radius: 0px 6px 6px 0px;
+   height: 3.8rem;
+   width: 12.0rem;
+   cursor: pointer;
+}
+
+main{
+    padding: 4.4rem;
+}
+
+.movie-result {
+    padding: 2.0rem 0;
+    display: flex;
+    gap: 2.1rem;
+    border-bottom: 1.5px solid #E5E7EB;
+}
+
+.main-title-container {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.movie-result img {
+    width: 9.9rem;
+    height: 14.7rem;
+    align-self: center;
+}
+
+.main-title{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+    padding: 0;
+    margin: 1.1rem 0;
+}
+
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 1.2rem;
+}
+
+.main-info {
+    display: flex;
+    align-items: center;
+    gap: 1.9rem; 
+    margin: 0.8rem 0;
+    color: #111827;
+    font-size: 1.2rem;
+}
+
+.watchlist-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 1.1rem;
+    cursor: pointer;
+}
+
+.movie-result p, i {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.movie-result .main-blurb {
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    color: #6B7280;
+}
+
+.no-result{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #DFDDDD;
+    font-size: 3.8rem;
+}
+
+.watchlist-add-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2.5rem;
+    color: darkgray;
+    cursor: pointer;
+}
+
+/* ICONS */
+
+.fa-film {
+    font-size: 8.0rem
+}

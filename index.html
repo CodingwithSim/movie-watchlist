@@ -1,0 +1,36 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/2f4f39a2d2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>   
+                <h1 class="title-text">Find your film</h1>
+                <a href="/watchlist.html">My Watchlist</a>
+            </header>
+            <section>
+                <div class="search-bar">
+                    <form id="search-form">
+                        <i class="fa-solid fa-magnifying-glass fa-fade fa-xl" style="color: #9ca3af;"></i>
+                        <input id="search-bar" class="search-bar-input" type="text" placeholder="Search for a movie">
+                        <button class="search-btn" type="submit">Search</button>
+                    </form>
+                </div>
+            </section>
+            <main id="results-container">
+                <div class="no-result">
+                    <i class="fa-solid fa-film" style="color: #dfdddd;"></i>
+                    <h3>Start exploring</h3>
+                </div>
+            </main>    
+        </div>
+        
+        <script src="index.js" type="module"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    </body>
+</html>
